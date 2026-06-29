@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/trip-extras.css">
+  <link rel="stylesheet" href="css/stories-faq.css">
+  <link rel="stylesheet" href="css/layout-extras.css">
+  <title>Adventure with Killah — Hiking, Camping & Team Building in Malawi</title>
+  <meta name="description" content="Adventure with Killah is a Blantyre-based outdoor adventure company offering hiking, camping, team building and adventure tours across Malawi, including Mount Mulanje, Zomba Plateau and Michiru.">
+  <link rel="icon" type="image/png" href="assets/img/logo-shield.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="site-header" id="siteHeader">
+  <div class="nav-wrap">
+    <a href="#home" class="brand">
+      <img src="assets/img/logo-shield.png" alt="Adventure with Killah shield logo" class="brand-mark">
+      <span class="brand-text">ADVENTURE<br><span>WITH KILLAH</span></span>
+    </a>
+
+        <nav class="main-nav" id="mainNav">
+      <a href="index.html" data-nav>Home</a>
+      <a href="about.html" data-nav>About</a>
+      <a href="trips.html" data-nav>Trips</a>
+      <a href="gallery.html" data-nav>Gallery</a>
+      <a href="faq.html" data-nav>FAQ</a>
+      <a href="contact.html" data-nav>Contact</a>
+    </nav>
+
+    <a class="btn btn-whatsapp nav-cta" target="_blank" rel="noopener"
+       href="https://wa.me/265882000002?text=Hi%20Adventure%20with%20Killah%2C%20I%27d%20like%20to%20find%20out%20more%20about%20your%20trips!">
+      <svg viewBox="0 0 24 24" class="icon"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-1.3-.6-2.1-1.1-3-2.5-.2-.3 0-.4.1-.6.2-.2.4-.5.6-.7.1-.2.1-.4 0-.6-.1-.2-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s.9 2.6 1 2.8c.1.2 1.8 2.8 4.4 3.8 2.1.8 2.5.6 3 .6.4 0 1.3-.5 1.5-1 .2-.5.2-.9.1-1Z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>
+<div class="scroll-progress" id="scrollProgress"></div>
+</header>
+
+<!-- mobile drawer -->
+<div class="mobile-drawer" id="mobileDrawer">
+  <button class="drawer-close" id="drawerClose" aria-label="Close menu">&times;</button>
+  <a href="index.html" data-nav>Home</a>
+  <a href="about.html" data-nav>About</a>
+  <a href="trips.html" data-nav>Trips</a>
+  <a href="gallery.html" data-nav>Gallery</a>
+  <a href="faq.html" data-nav>FAQ</a>
+  <a href="contact.html" data-nav>Contact</a>
+  <a class="btn btn-whatsapp" target="_blank" rel="noopener"
+     href="https://wa.me/265882000002?text=Hi%20Adventure%20with%20Killah%2C%20I%27d%20like%20to%20find%20out%20more%20about%20your%20trips!">Chat on WhatsApp</a>
+</div>
+<div class="drawer-overlay" id="drawerOverlay"></div>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home">
+  <div class="hero-bg" style="background-image:url('assets/img/hero-hiker.png')"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <p class="eyebrow reveal">Blantyre, Malawi &nbsp;·&nbsp; Hiking &nbsp;·&nbsp; Camping &nbsp;·&nbsp; Team Building</p>
+    <h1 class="hero-title reveal">
+      ADVENTURE<br><span class="accent">WITH KILLAH</span>
+    </h1>
+    <p class="hero-quote reveal">
+      "Explore, connect, grow. Every adventure is an opportunity to discover new
+      places, build lasting relationships, and unlock your full potential."
+    </p>
+    <div class="hero-actions reveal">
+      <a href="trips.html" class="btn btn-primary">Plan Your Adventure</a>
+      <a href="https://wa.me/265882000002" target="_blank" rel="noopener" class="btn btn-ghost">Chat on WhatsApp</a>
+    </div>
+  </div>
+
+  <div class="hero-badges">
+    <div class="badge reveal">
+      <span class="badge-num" data-count="4">0</span>
+      <span class="badge-label">Regions Explored</span>
+    </div>
+    <div class="badge reveal">
+      <span class="badge-num" data-count="5">0</span>
+      <span class="badge-label">Experience Types</span>
+    </div>
+    <div class="badge reveal">
+      <span class="badge-static">Mt Mulanje</span>
+      <span class="badge-label">Signature Expedition</span>
+    </div>
+  </div>
+
+  <a href="#experiences" class="scroll-cue" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ===================== MARQUEE ===================== -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>CORPORATE TEAMS</span><span>•</span><span>NGOs</span><span>•</span>
+    <span>SCHOOLS &amp; UNIVERSITIES</span><span>•</span><span>CHURCHES</span><span>•</span>
+    <span>YOUTH GROUPS</span><span>•</span><span>FAMILIES</span><span>•</span>
+    <span>TOURISTS</span><span>•</span><span>GOVERNMENT INSTITUTIONS</span><span>•</span>
+    <span>CORPORATE TEAMS</span><span>•</span><span>NGOs</span><span>•</span>
+    <span>SCHOOLS &amp; UNIVERSITIES</span><span>•</span><span>CHURCHES</span><span>•</span>
+    <span>YOUTH GROUPS</span><span>•</span><span>FAMILIES</span><span>•</span>
+    <span>TOURISTS</span><span>•</span><span>GOVERNMENT INSTITUTIONS</span><span>•</span>
+  </div>
+</div>
+
+<!-- ===================== EXPERIENCES ===================== -->
+<section class="section experiences" id="experiences">
+  <div class="container">
+    <p class="eyebrow reveal light">What We Offer</p>
+    <h2 class="reveal light">Five ways to get outside</h2>
+
+    <div class="exp-grid">
+      <article class="exp-card reveal">
+        <span class="exp-icon">
+          <svg viewBox="0 0 24 24"><path d="M14 4 8 13h3l-2 7 8-10h-3l2-6Z" opacity=".0"/><path d="M5 20 11 7l2 4 2-3 5 12H5Z"/></svg>
+        </span>
+        <h3>Hiking Adventures</h3>
+        <p>Guided hiking experiences through mountains, forests, hills and
+        nature trails — paced for the group in front of us.</p>
+      </article>
+
+      <article class="exp-card reveal">
+        <span class="exp-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 3 3 19h18L12 3Zm0 4.7 4.9 8.8H7.1L12 7.7ZM3 19l9-7 9 7H3Z"/></svg>
+        </span>
+        <h3>Camping Experiences</h3>
+        <p>Organised camping trips to safe sites that build outdoor survival
+        skills alongside genuine recreation and relaxation.</p>
+      </article>
+
+      <article class="exp-card reveal">
+        <span class="exp-icon">
+          <svg viewBox="0 0 24 24"><path d="M8 12a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8 0a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM8 13.5c-3 0-6 1.5-6 4.2V19h8.6c-.4-.6-.6-1.4-.6-2.3 0-1.3.6-2.4 1.5-3.2-1-.7-2.2-1-3.5-1Zm8 0c-.5 0-1 .05-1.5.15.9.9 1.5 2.1 1.5 3.4 0 .9-.2 1.7-.6 2.3H22v-1.3c0-2.7-3-4.2-6-4.2Z"/></svg>
+        </span>
+        <h3>Team Building Programs</h3>
+        <p>Customised activities designed to grow communication, leadership,
+        trust and collaboration across any team.</p>
+      </article>
+
+      <article class="exp-card reveal">
+        <span class="exp-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5Zm0 8L2 15l10 5 10-5-10-5Z"/></svg>
+        </span>
+        <h3>Outdoor Training</h3>
+        <p>Leadership development, problem-solving challenges and
+        adventure-based learning for groups who want more than a hike.</p>
+      </article>
+
+      <article class="exp-card reveal">
+        <span class="exp-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm3.5 6.5-2 5-5 2 2-5 5-2Z"/></svg>
+        </span>
+        <h3>Adventure Tours</h3>
+        <p>Weekend and holiday adventure packages for individuals, groups and
+        tourists who want Malawi's landscapes done properly.</p>
+      </article>
+
+      <article class="exp-card exp-card--cta reveal">
+        <h3>Not sure what fits?</h3>
+        <p>Tell us your group size and goal — we'll shape an experience around it.</p>
+        <a href="trips.html" class="btn btn-terracotta btn-sm">Start a request</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOW IT WORKS ===================== -->
+<section class="section how" id="how">
+  <div class="container">
+    <p class="eyebrow reveal">The Process</p>
+    <h2 class="reveal">From browsing to the trailhead</h2>
+    <p class="lead reveal">No app to download, no office visit needed — the whole
+    booking journey runs through your phone.</p>
+
+    <div class="how-track">
+      <svg class="how-line" viewBox="0 0 1000 120" preserveAspectRatio="none" aria-hidden="true">
+        <path id="trailPath" d="M0,60 C150,10 250,110 400,60 C550,10 650,110 800,60 C900,30 950,90 1000,60" />
+      </svg>
+
+      <div class="how-steps">
+        <div class="how-step reveal">
+          <span class="how-num">01</span>
+          <h3>Browse the schedule</h3>
+          <p>Check our live trips page, or message us to design your own date.</p>
+        </div>
+        <div class="how-step reveal">
+          <span class="how-num">02</span>
+          <h3>Submit your details</h3>
+          <p>Pick a date, tell us your group size, and drop your contact info.</p>
+        </div>
+        <div class="how-step reveal">
+          <span class="how-num">03</span>
+          <h3>Instant WhatsApp ping</h3>
+          <p>Your request lands straight in our WhatsApp inbox — no waiting on email.</p>
+        </div>
+        <div class="how-step reveal">
+          <span class="how-num">04</span>
+          <h3>Gear up &amp; go</h3>
+          <p>We confirm your spot, share Mpamba / Airtel Money details, and see you
+          on the trail.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== DESTINATIONS ===================== -->
+<section class="section destinations" id="destinations">
+  <div class="container">
+    <p class="eyebrow reveal">Where We Go</p>
+    <h2 class="reveal">Destinations across Malawi</h2>
+
+    <div class="dest-grid">
+      <div class="dest-card reveal">
+        <span class="dest-type">1-Day Hike</span>
+        <h3>Zomba Plateau</h3>
+        <p>Forest trails, viewpoints and a gentle introduction to highland hiking.</p>
+      </div>
+      <div class="dest-card reveal">
+        <span class="dest-type">1-Day Hike</span>
+        <h3>Michiru Mountain</h3>
+        <p>Blantyre's backyard summit — perfect for a quick weekend trail fix.</p>
+      </div>
+      <div class="dest-card dest-card--feature reveal">
+        <span class="dest-type">Signature · 2–3 Day Expedition</span>
+        <h3>Mount Mulanje — Minunu Hut</h3>
+        <p>Our flagship overnight expedition: hiking, swimming, games and an
+        outdoor movie night on the mountain.</p>
+      </div>
+      <div class="dest-card reveal">
+        <span class="dest-type">Day Trip</span>
+        <h3>Mangochi</h3>
+        <p>Lakeside landscapes and a change of scenery from the highlands.</p>
+      </div>
+      <div class="dest-card reveal">
+        <span class="dest-type">Wild Terrain</span>
+        <h3>Chikwawa</h3>
+        <p>Rugged, remote and rewarding — for groups ready to go further.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STORIES ===================== -->
+<section class="section stories" id="stories">
+  <div class="container">
+    <p class="eyebrow reveal">From Our Community</p>
+    <h2 class="reveal">Stories from the trail</h2>
+    <p class="lead reveal">Real moments from people who've adventured with us — and yes, you can add yours too.</p>
+
+    <div class="stories-grid" id="storiesGrid">
+      <p class="stories-loading" id="storiesLoading">Loading stories…</p>
+    </div>
+
+    <div class="stories-cta reveal">
+      <button class="btn btn-primary" id="openStoryFormBtn">Share Your Story</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHO WE SERVE ===================== -->
+<section class="section who">
+  <div class="container">
+    <p class="eyebrow reveal">Who Joins Us</p>
+    <h2 class="reveal">Built for every kind of group</h2>
+
+    <div class="who-grid">
+      <div class="who-pill reveal"><svg viewBox="0 0 24 24"><path d="M4 21v-2a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v2M10 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm7 10v-2a3.5 3.5 0 0 0-2.5-3.4M14.5 4.7a3 3 0 0 1 0 5.8"/></svg><span>Corporate Organisations</span></div>
+      <div class="who-pill reveal"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"/></svg><span>Government Institutions</span></div>
+      <div class="who-pill reveal"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.3-9C1 8 3 4 7 4c2 0 4 1.2 5 3 1-1.8 3-3 5-3 4 0 6 4 4.3 8-2.3 4.5-9.3 9-9.3 9Z"/></svg><span>NGOs</span></div>
+      <div class="who-pill reveal"><svg viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5Zm-10 5v6M6 12.5V17a6 6 0 0 0 12 0v-4.5"/></svg><span>Schools &amp; Universities</span></div>
+      <div class="who-pill reveal"><svg viewBox="0 0 24 24"><path d="M8 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm8 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM2 21c0-3 2.7-5 6-5s6 2 6 5M10 21c0-3 2.7-5 6-5s6 2 6 5"/></svg><span>Youth Groups</span></div>
+      <div class="who-pill reveal"><svg viewBox="0 0 24 24"><path d="M12 2 4 6v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10V6l-8-4Z"/></svg><span>Churches &amp; Communities</span></div>
+      <div class="who-pill reveal"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 0c2.5 2.7 4 6.2 4 10s-1.5 7.3-4 10c-2.5-2.7-4-6.2-4-10s1.5-7.3 4-10ZM2.5 9h19M2.5 15h19"/></svg><span>Tourists</span></div>
+      <div class="who-pill reveal"><svg viewBox="0 0 24 24"><path d="M3 9.5 12 3l9 6.5V21H3V9.5Zm6 11.5v-7h6v7"/></svg><span>Families &amp; Social Groups</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA / QUOTE ===================== -->
+<section class="cta-parallax" style="background-image:url('assets/img/cloud-sea.png')">
+  <div class="cta-overlay"></div>
+  <div class="cta-content reveal">
+    <p class="eyebrow">Above the clouds</p>
+    <h2>Whatever you're chasing — team cohesion, personal growth, or just a
+    proper view — Adventure with Killah is your trusted partner on the way there.</h2>
+    <a href="trips.html" class="btn btn-primary">Join the Next Adventure</a>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/img/logo_full_transparent.png" alt="Adventure with Killah logo">
+      <p>Hiking, camping and team building across Malawi.</p>
+      <div class="footer-social">
+        <a href="https://wa.me/265882000002" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2Z"/></svg>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24"><path d="M13 22v-8h2.7l.5-3H13V8.5c0-.9.3-1.5 1.6-1.5H16V4.2C15.6 4.1 14.5 4 13.3 4 10.7 4 9 5.6 9 8.2V11H6v3h3v8h4Z"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5Zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5ZM17.8 6a1 1 0 1 1-1 1 1 1 0 0 1 1-1Z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Get in Touch</h4>
+      <a href="mailto:clynkhoma2015@gmail.com">clynkhoma2015@gmail.com</a>
+      <a href="tel:+265882000002">+265 882 000 002</a>
+      <a href="tel:+265891871776">+265 891 871 776</a>
+      <span class="footer-static">Blantyre, Malawi</span>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p class="footer-year">&copy; <span id="year"></span> Adventure with Killah. All rights reserved.</p>
+    <p class="footer-tagline">Hiking, camping and team building.</p>
+    <p class="footer-credit">Developed by <strong>RON</strong></p>
+  </div>
+</footer>
+
+<!-- Story Submission Modal -->
+<div class="story-modal-overlay" id="storySubmitModal">
+  <div class="story-modal">
+    <button class="story-modal-close" id="storySubmitClose" aria-label="Close">&times;</button>
+    <h3>Share Your Story</h3>
+    <p class="story-modal-sub">Tell us about your adventure — it'll appear on this page right after you submit.</p>
+
+    <form id="storySubmitForm">
+      <div class="field">
+        <label for="storyAuthorNamePublic">Your name</label>
+        <input type="text" id="storyAuthorNamePublic" name="author_name" required placeholder="e.g. Chikondi Phiri">
+      </div>
+      <div class="field">
+        <label for="storyTripReferencePublic">Which trip? (optional)</label>
+        <input type="text" id="storyTripReferencePublic" name="trip_reference" placeholder="e.g. Mt Mulanje, July 2026">
+      </div>
+      <div class="field">
+        <label for="storyTextPublic">Your story</label>
+        <textarea id="storyTextPublic" name="story_text" rows="4" required placeholder="What made this adventure memorable?"></textarea>
+      </div>
+      <div class="field">
+        <label for="storyPhotoInputPublic">Add a photo (optional)</label>
+        <input type="file" id="storyPhotoInputPublic" accept="image/*">
+      </div>
+      <p class="field-error" id="storySubmitError"></p>
+      <button type="submit" class="btn btn-primary" id="storySubmitBtn">Post My Story</button>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast">Request ready — opening WhatsApp…</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="js/supabase-client.js"></script>
+<script src="js/script.js"></script>
+<script src="js/site-data.js"></script>
+</body>
+</html>
